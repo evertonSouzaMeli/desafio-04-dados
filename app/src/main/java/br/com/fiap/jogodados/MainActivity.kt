@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
                 else -> "Empate"
             }
 
-            Toast.makeText(this, vencedor, Toast.LENGTH_LONG).show()
+            Toast.makeText(this, vencedor, Toast.LENGTH_SHORT).show()
         }
     }
 }
